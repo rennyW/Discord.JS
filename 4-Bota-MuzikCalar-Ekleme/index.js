@@ -55,7 +55,6 @@ client.on("message",message=>{
             if(server.queue.length<=1)
             try{
                 message.member.voice.channel.join().then(connection=>{
-                    play(connection,message)
                 })
             }catch(e){
                 console.log("hata oluştu"+e)
@@ -83,4 +82,4 @@ client.on("message",message=>{
 
 
 
-client.login("TOKEN")
+client.login("NzI3MzEzMTgzNTA5MDUzNDcy.XvqBLw.Qx1D6RNWdDqROl_MDL3cIlSjGgo")
